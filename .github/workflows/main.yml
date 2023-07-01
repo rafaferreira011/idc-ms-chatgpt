@@ -18,7 +18,7 @@ jobs:
         uses: docker/build-push-action@v4.1.1
         with: 
           context: ./chatservice
-          file: ./chatservice/Dockerfile
+          file: ./Dockerfile
           push: true
           tags: |
             rafaferreira011/imersao-chatservice:v${{ github.run_number }}
@@ -27,7 +27,7 @@ jobs:
         uses: docker/build-push-action@v4.1.1
         with: 
           context: ./webapp
-          file: ./webapp/Dockerfile
+          file: ./Dockerfile
           push: true
           tags: |
             rafaferreira011/imersao-gpt-webapp:v${{ github.run_number }}
