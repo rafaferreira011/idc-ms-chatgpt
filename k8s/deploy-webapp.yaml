@@ -66,15 +66,15 @@ spec:
         - name: DATABASE_URL
           value: mysql://root:root@webapp-mysql:3306/webchat
         - name: NEXTAUTH_URL
-          value: http://ac5640bc9b39945179c088b980ba55ca-1068278803.us-east-2.elb.amazonaws.com/api/auth
+          value: http://a3d814cdb9ff34d828c3345034c7a94c-1516489263.us-east-1.elb.amazonaws.com/api/auth
         - name: NEXTAUTH_SECRET
           value: "123456"
         - name: KEYCLOAK_CLIENT_ID
           value: gpt-webapp
         - name: KEYCLOAK_CLIENT_SECRET
-          value: V8gJoNUxlYW7fi2LcollCXrzEiq4B6uk
+          value: KEZx2NJciZJ7Ke3Vpz7XwayXqI0gVK08
         - name: KEYCLOAK_ISSUER
-          value: http://ab040fa472bab4de380080f4791fe0ab-1453415156.us-east-2.elb.amazonaws.com/realms/master
+          value: http://a4fbb43c2264642fa865411576bebf45-655234358.us-east-1.elb.amazonaws.com/realms/master
         - name: CHATSERVICE_URL
           value: "chatservice:50051"
 ---
